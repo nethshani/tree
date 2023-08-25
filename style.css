@@ -1,0 +1,35 @@
+div{
+    color: aliceblue;
+    background-color: black;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid rgba(127, 255, 212, 0.952);
+    border-radius: 5px;
+}
+p{
+    padding: 20px 0px 20px 0px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+#overflow{
+    height: 50px;
+    width: 50px;
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    height: 800px;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}  
+.container> div{
+    background-color: rgba(0, 255, 255, 0.082);
+    margin: 50px;
+    padding: 45px;
+    font-size: 30px;
+    height: 100px;
+}
+
